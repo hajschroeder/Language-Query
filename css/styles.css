@@ -3,6 +3,6 @@ body{
   color: rgb(163, 206, 62)
 }
 
-#resultA, #resultB, resultC{
+#resultA, #resultB, #resultC{
   display: none;
 }
