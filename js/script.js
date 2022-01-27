@@ -15,9 +15,9 @@ $(document).ready(function(){
     $("#question4").text(qFiveAnswer);
 
     let result= qOneAnswer+qTwoAnswer+qThreeAnswer+qFourAnswer+qFiveAnswer
-      if(result<=103 && result!=50 && result!=41 && result!=32){
+      if(result<=203 && result!=131 && result!=122 && result!=50 && result!=41 && result!=32){
         $("#resultA").show();
-      } else if (result===50 || result<=130){
+      } else if (result<=230 && result !=212){
         $("#resultB").show();
       }else {
         $("#resultC").show();
