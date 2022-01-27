@@ -17,6 +17,22 @@ body{
   text-decoration: underline;
 }
 
+.clickable {
+  cursor: pointer;
+  color: hotpink;
+  font-weight:bold;
+}
+
+.clickable:hover{
+  text-decoration: underline;
+}
+
 .main{
-  margin-bottom: 75px;
+  margin-bottom: px;
+}
+
+#footer{
+  background-color:rgb(255, 166, 0);
+  width: 100%;
+  text-align: center;
 }
