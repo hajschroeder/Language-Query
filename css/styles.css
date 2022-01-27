@@ -7,18 +7,14 @@ body{
   display: none;
 }
 
-.clickable {
+.btn {
   cursor: pointer;
   color: hotpink;
   font-weight:bold;
 }
 
-.clickable:hover{
+.btn:hover{
   text-decoration: underline;
-}
-
-#hide-results{
-  display:none;
 }
 
 .main{

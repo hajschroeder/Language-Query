@@ -15,19 +15,14 @@ $(document).ready(function(){
     $("#question5").text(qFiveAnswer);
     
     let result= qOneAnswer+qTwoAnswer+qThreeAnswer+qFourAnswer+qFiveAnswer
-  if(result<=203 && result !=140 && result!=131 && result!=122 && result!=50 && result!=41 && result!=32){
+    if(result<=203 && result !=140 && result!=131 && result!=122 && result!=50 && result!=41 && result!=32 && result !=0){
       $("#resultA").show();
     } else if (result<=230 && result !=221){
-      $("#resultB").show();
+      $("#resultB").show();    
     }else {
       $("#resultC").show();
     }
-    (function(event){
-      event.preventDefault();
-      $(".clickable").click(function(){
-        $("#hide-results").fadeToggle();
-        $("#results").fadeToggle();
-      });
+    
   });
-  });
+  
 });
