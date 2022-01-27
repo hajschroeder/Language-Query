@@ -17,7 +17,7 @@ $(document).ready(function(){
     let result= qOneAnswer+qTwoAnswer+qThreeAnswer+qFourAnswer+qFiveAnswer
       if(result<=203 && result!=131 && result!=122 && result!=50 && result!=41 && result!=32){
         $("#resultA").show();
-      } else if (result<=230 && result !=212){
+      } else if (result<=230 && result !=221){
         $("#resultB").show();
       }else {
         $("#resultC").show();
