@@ -32,7 +32,11 @@ body{
 }
 
 #footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
   background-color:rgb(255, 166, 0);
   width: 100%;
   text-align: center;
+
 }

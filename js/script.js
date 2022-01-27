@@ -1,9 +1,9 @@
 $(document).ready(function(){
   $("form#quiz").submit(function(event){
-    $("button").click(function(){
-      $("p").toggle();
-    })
     event.preventDefault();
+    $("button").click(function(){
+      $("p.result").toggle();
+    })
     
     let qOneAnswer=parseInt($("#question1").val());
     let qTwoAnswer=parseInt($("#question2").val());
