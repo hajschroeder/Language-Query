@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <meta name="viewport" content="initial-scale=1">
+    <link href="images/babel.jpg" rel="icon">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.6.0.js"></script>
@@ -11,6 +13,7 @@
     <div class="container">
       <h1>Step Right Up!</h1>
       <h2>Let Garble the Great Decide Your Fate and Tell you Which Coding Language You'll Love to Hate!!!</h2>
+      <div class="main">
         <form id="quiz">
           <h3>Question1</h3>
             <select class="form-control" id="question1">
@@ -42,13 +45,18 @@
               <option value="10">B</option>
               <option value="100">C</option>
             </select>
+          <div class="clickable" id="results">
           <button type="submit" class="btn">result</button>
-          <div class="result">
             <div id="resultA"><p>Result A</p></div>
             <div id="resultB"><p>Result B</p></div>
             <div id="resultC"><p>Result C</p></div>
+
+          </div>
+          <div id="hide-results">
+            <p><span class="clickable">Click <strong> here</strong></span> to hide results</p>
           </div>
         </form>
+      </div>
     </div>
   </body>
 </html>

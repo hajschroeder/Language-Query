@@ -6,3 +6,21 @@ body{
 #resultA, #resultB, #resultC{
   display: none;
 }
+
+.clickable {
+  cursor: pointer;
+  color: hotpink;
+  font-weight:bold;
+}
+
+.clickable:hover{
+  text-decoration: underline;
+}
+
+#hide-results{
+  display:none;
+}
+
+.main{
+  margin-bottom: 75px;
+}
