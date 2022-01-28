@@ -3,7 +3,7 @@ body{
   color: rgb(163, 206, 62)
 }
 
-#resultA, #resultB, #resultC{
+#resultA, #resultB, #resultC, #resultD{
   display: none;
 }
 
@@ -29,7 +29,10 @@ body{
 
 .main{
   margin-bottom: 200px;
+  margin-top:40px;
+  margin-right:30%
 }
+
 
 #footer{
   position: fixed;
@@ -38,5 +41,10 @@ body{
   background-color:rgb(255, 166, 0);
   width: 100%;
   text-align: center;
+}
 
+img{
+  width: 30%;
+  height: auto;
+  float: right;
 }

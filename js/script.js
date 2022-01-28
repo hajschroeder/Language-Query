@@ -18,13 +18,14 @@ $(document).ready(function(){
     $("#question5").text(qFiveAnswer);
     
     let result= qOneAnswer+qTwoAnswer+qThreeAnswer+qFourAnswer+qFiveAnswer
-    if(result<=203 && result !=140 && result!=131 && result!=122 && result!=50 && result!=41 && result!=32 && result !=0){
-      $("#resultA").show();
+    if(result<=203 && result !=140 && result!=131 && result!=122 && result!=50 && result!=41 && result!=32){
+      $("#resultA").fadeIn();
     } else if (result<=230 && result !=221){
-      $("#resultB").show();    
+      $("#resultB").fadeIn();   
     }else if (result>230) {
-      $("#resultC").show();
-    } else {}
+      $("#resultC").fadeIn();
+    } else {
+      $("#resultD").show();
+    }
   });
-  
 });
