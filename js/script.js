@@ -2,7 +2,7 @@ $(document).ready(function(){
   $("form#quiz").submit(function(event){
     event.preventDefault();
     $("button").click(function(){
-      $("p.result").toggle();
+      $("h2.result").toggle();
     })
     
     let qOneAnswer=parseInt($("#question1").val());
