@@ -1,7 +1,8 @@
 $(document).ready(function(){
   $("form#quiz").submit(function(event){
     event.preventDefault();
-    $("button").click(function(){
+    $("button").click(function(event){
+      event.preventDefault();
       $("h2.result").toggle();
     })
     
