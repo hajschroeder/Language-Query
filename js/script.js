@@ -3,14 +3,14 @@ $(document).ready(function(){
     event.preventDefault();
     $("button").click(function(event){
       event.preventDefault();
-      $("h2.result").toggle();
+      $("h2.result").fadeToggle();
     })
     
-    let qOneAnswer=parseInt($("#question1").val());
-    let qTwoAnswer=parseInt($("#question2").val());
-    let qThreeAnswer=parseInt($("#question3").val());
-    let qFourAnswer=parseInt($("#question4").val());
-    let qFiveAnswer=parseInt($("#question5").val());
+    const qOneAnswer=parseInt($("#question1").val());
+    const qTwoAnswer=parseInt($("#question2").val());
+    const qThreeAnswer=parseInt($("#question3").val());
+    const qFourAnswer=parseInt($("#question4").val());
+    const qFiveAnswer=parseInt($("#question5").val());
     
     $("#question1").text(qOneAnswer);
     $("#question2").text(qTwoAnswer);
