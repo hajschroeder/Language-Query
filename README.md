@@ -4,6 +4,9 @@
 ### Contributer
 * Hans Schroeder
 
+### The Site
+* [View the raw documents on GitHub](https://github.com/hajschroeder/Language-Query)
+* [Click here to see the page in action on GitHubPages](https://hajschroeder.github.io/Language-Query/)
 ---
 
 ## Technologies Used
