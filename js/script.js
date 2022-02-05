@@ -12,7 +12,7 @@ $(document).ready(function(){
     const qFourAnswer=parseInt($("#question4").val());
     const qFiveAnswer=parseInt($("#question5").val());
     
-    $("#question1").text("");
+    $("#question1").text(""); //in a previous version, the arguments listed in lines 15-19 were the variables declared in lines 9-13
     $("#question2").text("");
     $("#question3").text("");
     $("#question4").text("");
