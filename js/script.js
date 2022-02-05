@@ -12,11 +12,11 @@ $(document).ready(function(){
     const qFourAnswer=parseInt($("#question4").val());
     const qFiveAnswer=parseInt($("#question5").val());
     
-    $("#question1").text(qOneAnswer);
-    $("#question2").text(qTwoAnswer);
-    $("#question3").text(qThreeAnswer);
-    $("#question4").text(qFourAnswer);
-    $("#question5").text(qFiveAnswer);
+    $("#question1").text("");
+    $("#question2").text("");
+    $("#question3").text("");
+    $("#question4").text("");
+    $("#question5").text("");
     
     let result= qOneAnswer+qTwoAnswer+qThreeAnswer+qFourAnswer+qFiveAnswer
     if(result<=203 && result !=140 && result!=131 && result!=122 && result!=50 && result!=41 && result!=32){
